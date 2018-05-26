@@ -18,8 +18,9 @@ This theme has been designed with the following syntax highlighting plugins in m
  * LESS: [genoma/vim-less](https://github.com/genoma/vim-less)
  * Handlebars: [mustache/vim-mustache-handlebars](https://github.com/mustache/vim-mustache-handlebars)
 
-Support for configure and extend the list of supported syntax highlighting plugins is planned. See [colors/syntax/](colors/syntax/) for reference.
+Support for configure and extend the list of supported syntax highlighting plugins is planned.
 
+> If you want to add support for a custom syntax highlighting plugin, just fork the repo, create a file under `colors/syntax/{file-type}/{name-of-syntax-plugin}` and then import it in `vimterial_dark.vim`. PRs accepted. See [colors/syntax](colors/syntax) for reference.
 
 ## Installation
 
@@ -31,7 +32,7 @@ Install [Vundle](https://github.com/VundleVim/Vundle.vim) and add this theme as 
 
 ```vim
 "...
-Plugin 'larsbs/vimterial'
+Plugin 'larsbs/vimterial_dark'
 "...
 ```
 
