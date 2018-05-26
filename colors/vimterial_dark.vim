@@ -60,10 +60,10 @@ execute 'source ' . expand("<sfile>:p:h") . "/colors.vim"
 
 " GENERAL "{{{
 " =======
-Hi Normal               g:lighter_grey_blue  g:darker_grey
-Hi Noise                g:accent_teal        g:darker_grey
+Hi Normal               g:foreground         g:background
+Hi Noise                g:accent_teal        g:background
 "Hi ColorColumn          g:testing            g:testing
-Hi Cursor               g:darker_grey        g:light_grey_blue
+Hi Cursor               g:background         g:light_grey_blue
 "hi CursorIM
 Hi CursorColumn         g:ignore             g:darkest_grey
 Hi CursorLine           g:ignore             g:darkest_grey
@@ -74,11 +74,11 @@ Hi DiffChange           g:orange             g:darkest_grey
 hi DiffChange           gui=bold
 Hi DiffDelete           g:soft_red           g:darkest_grey
 Hi DiffText             g:blue               g:darkest_grey
-Hi ErrorMsg             g:darker_grey        g:soft_red
+Hi ErrorMsg             g:background         g:soft_red
 hi ErrorMsg             gui=none
-Hi VertSplit            g:darker_grey        g:dark_grey_blue
-Hi Folded               g:darker_grey        g:grey_blue
-Hi FoldedColumn         g:darker_grey        g:grey_blue
+Hi VertSplit            g:background         g:dark_grey_blue
+Hi Folded               g:background         g:grey_blue
+Hi FoldedColumn         g:background         g:grey_blue
 Hi SignColumn           g:dark_grey_blue     g:ignore
 Hi IncSearch            g:search             g:darkest_grey
 Hi LineNr               g:dark_grey_blue     g:ignore
@@ -93,17 +93,17 @@ Hi Search               g:darkest_grey       g:search
 "Hi StatusLine           g:testing            g:testing
 "Hi StatusLineNC         g:testing            g:testing
 Hi Title                g:blue               g:ignore
-Hi Visual               g:darker_grey        g:light_grey_blue
+Hi Visual               g:background         g:light_grey_blue
 "Hi VisualNOS            g:testing            g:testing
 Hi WarningMsg           g:soft_red           g:ignore
 Hi WildMenu             g:testing            g:testing
 Hi Menu                 g:testing            g:testing
 Hi Scrollbar            g:testing            g:testing
 Hi Tooltip              g:testing            g:testing
-Hi Pmenu                g:lighter_grey_blue  g:pmenu_bg
+Hi Pmenu                g:foreground         g:pmenu_bg
 Hi PmenuSel             g:pmenu_bg           g:light_grey_blue
 Hi PmenuSbar            g:ignore             g:grey_blue
-Hi PmenuThumb           g:ignore             g:lighter_grey_blue
+Hi PmenuThumb           g:ignore             g:foreground
 " }}}
 
 
@@ -182,7 +182,7 @@ hi Type                 gui=none
 " SPECIALS "{{{
 " ========
 " Any special symbol (ex: [, ], (, ), etc.)
-Hi Special              g:lighter_grey_blue  g:ignore
+Hi Special              g:foreground         g:ignore
 " Special character in a constant (ex: \n, %s, etc.)
 Hi SpecialChar          g:accent_teal        g:ignore
 " You can use CTRL-] on this

@@ -34,10 +34,13 @@ let g:green             = '#C3E88D'
 let g:violet            = '#C792EA'
 let g:limegreen         = '#d9f5dd'
 let g:orange            = '#FFCB6B'
+let g:yellow            = '#FFCC00'
 
 let g:pmenu_bg          = '#1e282d'
 let g:background        = g:darkest_grey
 let g:background_alt    = g:darker_grey
+let g:foreground        = g:lighter_grey_blue
 let g:contrast          = g:black
-let g:search            = '#FFCC00'
+let g:search            = g:yellow
+let g:cursor            = g:yellow
 " }}}
