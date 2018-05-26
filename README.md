@@ -1,6 +1,7 @@
 # Vim Vimterial Dark Colorscheme
 
-A vim color scheme based on [Material Theme Darker](http://equinusocio.github.io/material-theme). Improved for web development.
+A dark vim color scheme based on [Material Theme Darker](http://equinusocio.github.io/material-theme). 
+Improved for web development.
 
 > See also a variation of this color scheme based on atom [vimtom](https://github.com/larsbs/vimtom)
 > See also a lighter variation of this color scheme [vimterial](https://github.com/larsbs/vimterial)
@@ -20,7 +21,7 @@ This theme has been designed with the following syntax highlighting plugins in m
 
 Support for configure and extend the list of supported syntax highlighting plugins is planned.
 
-> If you want to add support for a custom syntax highlighting plugin, just fork the repo, create a file under `colors/syntax/{file-type}/{name-of-syntax-plugin}` and then import it in `vimterial_dark.vim`. PRs accepted. See [colors/syntax](colors/syntax) for reference.
+> **NOTE:** If you want to add support for a custom syntax highlighting plugin, just fork the repo, create a file under `colors/syntax/{file-type}/{name-of-syntax-plugin}` and then import it in `vimterial_dark.vim`. PRs accepted. See [colors/syntax](colors/syntax) for reference.
 
 ## Installation
 
