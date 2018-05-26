@@ -11,7 +11,7 @@
 " SH Highlighting "{{{
 " ===============
 " Statements
-hi shStatement            guifg=#c792ea               gui=none ctermbg=none
-hi shTestOpr              guifg=#d9f5dd               gui=none ctermbg=none
+Hi shStatement            g:accent_teal               g:ignore
+Hi shTestOpr              g:soft_lime_green           g:ignore
 hi link shVariable Function
 " }}}

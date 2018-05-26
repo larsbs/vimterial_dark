@@ -10,7 +10,7 @@
 
 " LESS Highlighting "{{{
 " =================
-hi lessAmpersand           guifg=#d9f5dd               gui=none ctermbg=none
-hi lessClassChar           guifg=#c3e88d               gui=none ctermbg=none
-hi lessFunction            guifg=#c3e88d               gui=none ctermbg=none
+Hi lessAmpersand           g:soft_lime_green          g:ignore
+Hi lessClassChar           g:soft_green               g:ignore
+Hi lessFunction            g:soft_green               g:ignore
 " }}}
