@@ -37,6 +37,8 @@ hi link jsFuncAssignIdent       Function
 
 hi link jsClassProperty         Normal
 
+hi link jsExportDefault         Include
+
 Hi jsGlobalObjects              g:orange            g:ignore
 Hi jsThis                       g:soft_red          g:ignore
 hi jsThis                       gui=italic

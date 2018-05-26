@@ -10,7 +10,7 @@
 
 " HTML Highlighting "{{{
 " =================
-Hi htmlTag                   g:accent_teal       g:ignore
+Hi htmlTag                   g:cyan              g:ignore
 Hi htmlTagName               g:soft_red          g:ignore
 
 hi link htmlEndTag           htmlTag

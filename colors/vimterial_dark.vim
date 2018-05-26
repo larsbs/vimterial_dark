@@ -61,47 +61,47 @@ execute 'source ' . expand("<sfile>:p:h") . "/colors.vim"
 " GENERAL "{{{
 " =======
 Hi Normal               g:foreground         g:background
-Hi Noise                g:accent_teal        g:background
+Hi Noise                g:punct              g:background
 "Hi ColorColumn          g:testing            g:testing
-Hi Cursor               g:background         g:light_grey_blue
+Hi Cursor               g:background         g:cursor
 "hi CursorIM
-Hi CursorColumn         g:ignore             g:darkest_grey
-Hi CursorLine           g:ignore             g:darkest_grey
+Hi CursorColumn         g:ignore             g:background_alt
+Hi CursorLine           g:ignore             g:background_alt
 Hi Directory            g:accent_teal        g:ignore
-Hi DiffAdd              g:green              g:darkest_grey
+Hi DiffAdd              g:green              g:background_alt
 hi DiffAdd              gui=bold
-Hi DiffChange           g:orange             g:darkest_grey
+Hi DiffChange           g:orange             g:background_alt
 hi DiffChange           gui=bold
-Hi DiffDelete           g:soft_red           g:darkest_grey
-Hi DiffText             g:blue               g:darkest_grey
+Hi DiffDelete           g:soft_red           g:background_alt
+Hi DiffText             g:blue               g:background_alt
 Hi ErrorMsg             g:background         g:soft_red
 hi ErrorMsg             gui=none
-Hi VertSplit            g:background         g:dark_grey_blue
+Hi VertSplit            g:background         g:contrast
 Hi Folded               g:background         g:grey_blue
 Hi FoldedColumn         g:background         g:grey_blue
 Hi SignColumn           g:dark_grey_blue     g:ignore
-Hi IncSearch            g:search             g:darkest_grey
-Hi LineNr               g:dark_grey_blue     g:ignore
-Hi MatchParen           g:darkest_grey       g:grey_blue
+Hi LineNr               g:line_numbers       g:ignore
+Hi MatchParen           g:background_alt     g:grey_blue
 Hi ModeMsg              g:light_grey_blue    g:none
 "Hi MoreMsg              g:testing            g:testing
 Hi NonText              g:dark_grey_blue     g:ignore
 Hi Question             g:light_grey_blue    g:none
 hi Question             gui=none
-Hi Search               g:darkest_grey       g:search
+Hi Search               g:background_alt     g:search
+Hi IncSearch            g:search             g:background_alt
 "Hi SpecialKey           g:testing            g:testing
 "Hi StatusLine           g:testing            g:testing
 "Hi StatusLineNC         g:testing            g:testing
 Hi Title                g:blue               g:ignore
-Hi Visual               g:background         g:light_grey_blue
+Hi Visual               g:ignore             g:selection
 "Hi VisualNOS            g:testing            g:testing
 Hi WarningMsg           g:soft_red           g:ignore
 Hi WildMenu             g:testing            g:testing
 Hi Menu                 g:testing            g:testing
 Hi Scrollbar            g:testing            g:testing
 Hi Tooltip              g:testing            g:testing
-Hi Pmenu                g:foreground         g:pmenu_bg
-Hi PmenuSel             g:pmenu_bg           g:light_grey_blue
+Hi Pmenu                g:foreground         g:background_alt
+Hi PmenuSel             g:background_alt     g:selection
 Hi PmenuSbar            g:ignore             g:grey_blue
 Hi PmenuThumb           g:ignore             g:foreground
 " }}}
@@ -112,14 +112,14 @@ Hi PmenuThumb           g:ignore             g:foreground
 " COMMENTS "{{{
 " ========
 " Any comment
-Hi Comment              g:grey_blue          g:ignore
-hi comment              gui=italic
+Hi Comment              g:comments           g:ignore
+hi Comment              gui=italic
 " }}}
 
 " CONSTANTS "{{{
 " =========
 " Any constant
-Hi Constant             g:soft_red           g:ignore
+Hi Constant             g:soft_orange        g:ignore
 " A string constant
 Hi String               g:green              g:ignore
 " }}}
@@ -137,7 +137,7 @@ Hi Function             g:blue               g:ignore
 " ==========
 " Any statement
 Hi Statement            g:violet             g:ignore
-hi Statement            gui=none
+hi Statement            gui=italic
 " if, then, else, endif, switch, etc.
 "hi Conditional
 " for, do, while, etc.
@@ -145,7 +145,7 @@ hi Statement            gui=none
 " case, default, etc.
 "hi Label
 " sizeof, +, *, etc.
-Hi Operator             g:limegreen         g:ignore
+Hi Operator             g:cyan               g:ignore
 " Any other keyword
 "hi Keyword
 " Try, catch, throw
@@ -157,7 +157,7 @@ Hi Operator             g:limegreen         g:ignore
 " Generic preprocessor
 Hi PreProc              g:violet             g:ignore
 " Preprocessor #include
-"hi Include
+Hi Include              g:cyan               g:ignore
 " Preprocessor #define
 "hi Define
 " Same as define
