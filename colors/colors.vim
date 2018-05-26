@@ -25,7 +25,6 @@ let g:lighter_grey_blue = '#EEFFFF'
 
 let g:teal              = '#009688'
 let g:accent_teal       = '#73d1c8'
-let g:search_yellow     = '#FFCC00'
 
 let g:paleblue          = '#B2CCD6'
 let g:blue              = '#82AAFF'
@@ -40,4 +39,5 @@ let g:pmenu_bg          = '#1e282d'
 let g:background        = g:darkest_grey
 let g:background_alt    = g:darker_grey
 let g:contrast          = g:black
+let g:search            = '#FFCC00'
 " }}}

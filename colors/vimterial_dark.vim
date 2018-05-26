@@ -80,7 +80,7 @@ Hi VertSplit            g:darker_grey        g:dark_grey_blue
 Hi Folded               g:darker_grey        g:grey_blue
 Hi FoldedColumn         g:darker_grey        g:grey_blue
 Hi SignColumn           g:dark_grey_blue     g:ignore
-Hi IncSearch            g:search_yellow      g:darkest_grey
+Hi IncSearch            g:search             g:darkest_grey
 Hi LineNr               g:dark_grey_blue     g:ignore
 Hi MatchParen           g:darkest_grey       g:grey_blue
 Hi ModeMsg              g:light_grey_blue    g:none
@@ -88,7 +88,7 @@ Hi ModeMsg              g:light_grey_blue    g:none
 Hi NonText              g:dark_grey_blue     g:ignore
 Hi Question             g:light_grey_blue    g:none
 hi Question             gui=none
-Hi Search               g:darkest_grey       g:search_yellow
+Hi Search               g:darkest_grey       g:search
 "Hi SpecialKey           g:testing            g:testing
 "Hi StatusLine           g:testing            g:testing
 "Hi StatusLineNC         g:testing            g:testing
