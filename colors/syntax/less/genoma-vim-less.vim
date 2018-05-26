@@ -10,7 +10,7 @@
 
 " LESS Highlighting "{{{
 " =================
-Hi lessAmpersand           g:soft_lime_green          g:ignore
-Hi lessClassChar           g:soft_green               g:ignore
-Hi lessFunction            g:soft_green               g:ignore
+Hi lessAmpersand           g:limegreen                g:ignore
+Hi lessClassChar           g:green                    g:ignore
+Hi lessFunction            g:green                    g:ignore
 " }}}

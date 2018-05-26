@@ -12,7 +12,7 @@
 " ===============
 " Statements
 Hi shStatement            g:accent_teal               g:ignore
-Hi shTestOpr              g:soft_lime_green           g:ignore
+Hi shTestOpr              g:limegreen                 g:ignore
 
 hi link shVariable Function
 " }}}

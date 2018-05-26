@@ -11,7 +11,8 @@
 " Jinja Highlighting "{{{
 " ==================
 " Statements
+Hi jinjaVariable             g:blue          g:ignore
+
 hi link jinjaStatement       Statement
-Hi jinjaVariable             g:light_blue        g:ignore
 hi link jinjaString          String
 " }}}

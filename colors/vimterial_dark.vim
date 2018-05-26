@@ -68,12 +68,12 @@ Hi Cursor               g:darker_grey        g:light_grey_blue
 Hi CursorColumn         g:ignore             g:darkest_grey
 Hi CursorLine           g:ignore             g:darkest_grey
 Hi Directory            g:accent_teal        g:ignore
-Hi DiffAdd              g:soft_green         g:darkest_grey
+Hi DiffAdd              g:green              g:darkest_grey
 hi DiffAdd              gui=bold
-Hi DiffChange           g:soft_orange        g:darkest_grey
+Hi DiffChange           g:orange             g:darkest_grey
 hi DiffChange           gui=bold
 Hi DiffDelete           g:soft_red           g:darkest_grey
-Hi DiffText             g:light_blue         g:darkest_grey
+Hi DiffText             g:blue               g:darkest_grey
 Hi ErrorMsg             g:darker_grey        g:soft_red
 hi ErrorMsg             gui=none
 Hi VertSplit            g:darker_grey        g:dark_grey_blue
@@ -92,7 +92,7 @@ Hi Search               g:darkest_grey       g:search_yellow
 "Hi SpecialKey           g:testing            g:testing
 "Hi StatusLine           g:testing            g:testing
 "Hi StatusLineNC         g:testing            g:testing
-Hi Title                g:light_blue         g:ignore
+Hi Title                g:blue               g:ignore
 Hi Visual               g:darker_grey        g:light_grey_blue
 "Hi VisualNOS            g:testing            g:testing
 Hi WarningMsg           g:soft_red           g:ignore
@@ -121,22 +121,22 @@ hi comment              gui=italic
 " Any constant
 Hi Constant             g:soft_red           g:ignore
 " A string constant
-Hi String               g:soft_green         g:ignore
+Hi String               g:green              g:ignore
 " }}}
 
 " IDENTIFIERS "{{{
 " ===========
 " Any variable name
-Hi Identifier           g:soft_violet        g:ignore
+Hi Identifier           g:violet             g:ignore
 hi Identifier           gui=none
 " Function name (also: methods for classes)
-Hi Function             g:light_blue         g:ignore
+Hi Function             g:blue               g:ignore
 " }}}
 
 " STATEMENTS "{{{
 " ==========
 " Any statement
-Hi Statement            g:soft_violet        g:ignore
+Hi Statement            g:violet             g:ignore
 hi Statement            gui=none
 " if, then, else, endif, switch, etc.
 "hi Conditional
@@ -145,7 +145,7 @@ hi Statement            gui=none
 " case, default, etc.
 "hi Label
 " sizeof, +, *, etc.
-Hi Operator             g:soft_lime_green    g:ignore
+Hi Operator             g:limegreen         g:ignore
 " Any other keyword
 "hi Keyword
 " Try, catch, throw
@@ -155,7 +155,7 @@ Hi Operator             g:soft_lime_green    g:ignore
 " PREPROCS "{{{
 " ========
 " Generic preprocessor
-Hi PreProc              g:soft_violet        g:ignore
+Hi PreProc              g:violet             g:ignore
 " Preprocessor #include
 "hi Include
 " Preprocessor #define
@@ -169,7 +169,7 @@ Hi PreProc              g:soft_violet        g:ignore
 " TYPES "{{{
 " =====
 " int, long, char, etc.
-Hi Type                 g:soft_violet        g:ignore
+Hi Type                 g:violet             g:ignore
 hi Type                 gui=none
 " static, register, volatile, etc.
 "hi StorageClass

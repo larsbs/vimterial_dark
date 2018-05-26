@@ -37,7 +37,7 @@ hi link jsFuncAssignIdent       Function
 
 hi link jsClassProperty         Normal
 
-Hi jsGlobalObjects              g:soft_orange       g:ignore
-Hi jsThis                       g:light_red         g:ignore
+Hi jsGlobalObjects              g:orange            g:ignore
+Hi jsThis                       g:soft_red          g:ignore
 hi jsThis                       gui=italic
 " }}}
