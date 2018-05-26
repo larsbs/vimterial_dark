@@ -14,8 +14,10 @@ let g:none              = 'NONE'
 let g:ignore            = 'ignore'
 let g:testing           = '#CDFF00'
 
-let g:darkest_grey_blue = '#1e282d'
-let g:darker_grey_blue  = '#263238'
+let g:black             = '#000000'
+let g:darkest_grey      = '#1a1a1a'
+let g:darker_grey       = '#212121'
+
 let g:dark_grey_blue    = '#37474f'
 let g:grey_blue         = '#546e7a'
 let g:light_grey_blue   = '#B2CCD6'
@@ -36,5 +38,8 @@ let g:soft_lime_green   = '#d9f5dd'
 let g:soft_orange       = '#FFCB6B'
 let g:light_orange      = '#FFE082'
 
-let g:pmenu_bg          = '#1e282d'  " PMenu background
+let g:pmenu_bg          = '#1e282d'
+let g:background        = g:darkest_grey
+let g:background_alt    = g:darker_grey
+let g:contrast          = g:black
 " }}}

@@ -60,40 +60,40 @@ execute 'source ' . expand("<sfile>:p:h") . "/colors.vim"
 
 " GENERAL "{{{
 " =======
-Hi Normal               g:lighter_grey_blue  g:darker_grey_blue
-Hi Noise                g:accent_teal        g:darker_grey_blue
+Hi Normal               g:lighter_grey_blue  g:darker_grey
+Hi Noise                g:accent_teal        g:darker_grey
 "Hi ColorColumn          g:testing            g:testing
-Hi Cursor               g:darker_grey_blue   g:light_grey_blue
+Hi Cursor               g:darker_grey        g:light_grey_blue
 "hi CursorIM
-Hi CursorColumn         g:ignore             g:darkest_grey_blue
-Hi CursorLine           g:ignore             g:darkest_grey_blue
+Hi CursorColumn         g:ignore             g:darkest_grey
+Hi CursorLine           g:ignore             g:darkest_grey
 Hi Directory            g:accent_teal        g:ignore
-Hi DiffAdd              g:soft_green         g:darkest_grey_blue
+Hi DiffAdd              g:soft_green         g:darkest_grey
 hi DiffAdd              gui=bold
-Hi DiffChange           g:soft_orange        g:darkest_grey_blue
+Hi DiffChange           g:soft_orange        g:darkest_grey
 hi DiffChange           gui=bold
-Hi DiffDelete           g:soft_red           g:darkest_grey_blue
-Hi DiffText             g:light_blue         g:darkest_grey_blue
-Hi ErrorMsg             g:darker_grey_blue   g:soft_red
+Hi DiffDelete           g:soft_red           g:darkest_grey
+Hi DiffText             g:light_blue         g:darkest_grey
+Hi ErrorMsg             g:darker_grey        g:soft_red
 hi ErrorMsg             gui=none
-Hi VertSplit            g:darker_grey_blue   g:dark_grey_blue
-Hi Folded               g:darker_grey_blue   g:grey_blue
-Hi FoldedColumn         g:darker_grey_blue   g:grey_blue
+Hi VertSplit            g:darker_grey        g:dark_grey_blue
+Hi Folded               g:darker_grey        g:grey_blue
+Hi FoldedColumn         g:darker_grey        g:grey_blue
 Hi SignColumn           g:dark_grey_blue     g:ignore
-Hi IncSearch            g:search_yellow      g:darkest_grey_blue
+Hi IncSearch            g:search_yellow      g:darkest_grey
 Hi LineNr               g:dark_grey_blue     g:ignore
-Hi MatchParen           g:darkest_grey_blue  g:grey_blue
+Hi MatchParen           g:darkest_grey       g:grey_blue
 Hi ModeMsg              g:light_grey_blue    g:none
 "Hi MoreMsg              g:testing            g:testing
 Hi NonText              g:dark_grey_blue     g:ignore
 Hi Question             g:light_grey_blue    g:none
 hi Question             gui=none
-Hi Search               g:darkest_grey_blue  g:search_yellow
+Hi Search               g:darkest_grey       g:search_yellow
 "Hi SpecialKey           g:testing            g:testing
 "Hi StatusLine           g:testing            g:testing
 "Hi StatusLineNC         g:testing            g:testing
 Hi Title                g:light_blue         g:ignore
-Hi Visual               g:darker_grey_blue   g:light_grey_blue
+Hi Visual               g:darker_grey        g:light_grey_blue
 "Hi VisualNOS            g:testing            g:testing
 Hi WarningMsg           g:soft_red           g:ignore
 Hi WildMenu             g:testing            g:testing
