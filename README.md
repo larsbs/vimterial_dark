@@ -1,6 +1,6 @@
 # Vim Vimterial Dark Colorscheme
 
-A dark vim color scheme based on [Material Theme Darker](http://equinusocio.github.io/material-theme). 
+A dark vim color scheme based on [Material Theme Darker](http://equinusocio.github.io/material-theme).
 Improved for web development.
 
 > See also a variation of this color scheme based on atom [vimtom](https://github.com/larsbs/vimtom)
@@ -45,7 +45,6 @@ Then save the file and run `vim +PluginInstall`
 ### Javascript
 
 ![JavaScript screenshot](screenshots/js1.png)
-![JavaScript screenshot](screenshots/js2.png)
 
 ### HTML
 
