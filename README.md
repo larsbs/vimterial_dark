@@ -44,7 +44,7 @@ Then save the file and run `vim +PluginInstall`
 
 ### Javascript
 
-![JavaScript screenshot](screenshots/js1.png)
+![JavaScript screenshot](screenshots/js.png)
 
 ### HTML
 
