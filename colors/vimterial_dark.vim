@@ -76,16 +76,16 @@ Hi DiffDelete           g:soft_red           g:background_alt
 Hi DiffText             g:blue               g:background_alt
 Hi ErrorMsg             g:background         g:soft_red
 hi ErrorMsg             gui=none
-Hi VertSplit            g:background         g:contrast
+Hi VertSplit            g:background         g:line_numbers
 Hi Folded               g:background         g:grey_blue
 Hi FoldedColumn         g:background         g:grey_blue
-Hi SignColumn           g:dark_grey_blue     g:ignore
+Hi SignColumn           g:line_numbers       g:ignore
 Hi LineNr               g:line_numbers       g:ignore
 Hi MatchParen           g:background_alt     g:grey_blue
 Hi ModeMsg              g:light_grey_blue    g:none
 "Hi MoreMsg              g:testing            g:testing
-Hi NonText              g:dark_grey_blue     g:ignore
-Hi Question             g:light_grey_blue    g:none
+Hi NonText              g:line_numbers       g:ignore
+Hi Question             g:line_numbers       g:none
 hi Question             gui=none
 Hi Search               g:background_alt     g:search
 Hi IncSearch            g:search             g:background_alt

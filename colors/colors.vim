@@ -15,10 +15,11 @@ let g:ignore            = 'ignore'
 let g:testing           = '#CDFF00'
 
 let g:black             = '#000000'
-let g:darkest_grey      = '#1C1C1C'
+let g:darkest_grey      = '#151515'
 let g:darker_grey       = '#212121'
 let g:grey              = '#4A4A4A'
 let g:light_grey        = '#616161'
+let g:lighter_grey      = '#BDBDBD'
 let g:white             = '#FFFFFF'
 
 let g:dark_grey_blue    = '#37474f'
@@ -45,6 +46,7 @@ let g:yellow            = '#FBC02D'
 let g:background        = g:darker_grey
 let g:background_alt    = g:darkest_grey
 let g:foreground        = g:lighter_grey_blue
+let g:foreground_alt    = g:lighter_grey
 let g:contrast          = g:black
 let g:search            = g:light_yellow
 let g:cursor            = g:yellow

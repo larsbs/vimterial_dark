@@ -8,25 +8,37 @@
 " URL: http://github.com/larsbs/vimterial_dark
 
 
+" COLORS "{{{
+" =======
+execute 'source ' . expand("<sfile>:p:h") . "/../../../colors/colors.vim"
+
+let g:normal_accent = g:grey
+let g:insert_accent = g:blue
+let g:visual_accent = g:green
+let g:replace_accent = g:soft_red
+let g:contrlp_accent = g:grey
+" }}}
+
+
 " Normal mode
-let s:N1 = [ '#cdd3de' , '#37474f' , 15 , 55  ]
-let s:N2 = [ '#cdd3de' , '#607d8b' , 15 , 98  ]
-let s:N3 = [ '#cdd3de' , '#182025' , 15 , 233 ]
+let s:N1 = [ g:foreground_alt , g:normal_accent , 15 , 55  ]
+let s:N2 = [ g:foreground_alt , g:normal_accent , 15 , 98  ]
+let s:N3 = [ g:foreground_alt , g:background_alt , 15 , 233 ]
 
 " Insert mode
-let s:I1 = [ '#263238' , '#82AAFF' , 15 , 33  ]
-let s:I2 = [ '#cdd3de' , '#607d8b' , 15 , 39  ]
-let s:I3 = [ '#cdd3de' , '#182025' , 15 , 233 ]
+let s:I1 = [ g:background ,     g:insert_accent , 15 , 33  ]
+let s:I2 = [ g:background ,     g:insert_accent , 15 , 39  ]
+let s:I3 = [ g:foreground_alt , g:background_alt , 15 , 233 ]
 
 " Visual mode
-let s:V1 = [ '#263238' , '#c3e88d' , 233 , 202 ]
-let s:V2 = [ '#cdd3de' , '#607d8b' , 233 , 214 ]
-let s:V3 = [ '#cdd3de' , '#182025' , 15  , 233 ]
+let s:V1 = [ g:background ,     g:visual_accent , 233 , 202 ]
+let s:V2 = [ g:background ,     g:visual_accent , 233 , 214 ]
+let s:V3 = [ g:foreground_alt , g:background_alt , 15  , 233 ]
 
 " Replace mode
-let s:R1 = [ '#263238' , '#F07178' , 15 , 196 ]
-let s:R2 = [ '#cdd3de' , '#607d8b' , 15 , 203 ]
-let s:R3 = [ '#cdd3de' , '#182025' , 15 , 233 ]
+let s:R1 = [ g:background ,     g:replace_accent , 15 , 196 ]
+let s:R2 = [ g:background ,     g:replace_accent , 15 , 203 ]
+let s:R3 = [ g:foreground_alt , g:background_alt , 15 , 233 ]
 
 let g:airline#themes#vimterial_dark#palette = {}
 let g:airline#themes#vimterial_dark#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
@@ -36,7 +48,7 @@ let g:airline#themes#vimterial_dark#palette.replace = airline#themes#generate_co
 
 " Inactive mode
 let s:IN1 = [ '#9e9e9e' , '#626262' , 247 , 241 ]
-let s:IN2 = [ '#cdd3de' , '#182025' , 15  , 233 ]
+let s:IN2 = [ g:foreground_alt , g:background_alt , 15  , 233 ]
 
 let s:IA = [ s:IN1[1] , s:IN2[1] , s:IN1[3] , s:IN2[3] , '' ]
 let g:airline#themes#vimterial_dark#palette.inactive = airline#themes#generate_color_map(s:IA, s:IA, s:IA)
@@ -46,17 +58,17 @@ if !get(g:, 'loaded_ctrlp', 0)
   finish
 endif
 
-let s:CP1 =  [ '#cdd3de' , '#37474f' , 15 , 55 ]
-let s:CP2 =  [ '#cdd3de' , '#607d8b' , 15 , 98 ]
-let s:CP3 =  [ '#37474f' , '#cdd3de' , 55 , 15 ]
+let s:CP1 =  [ g:foreground_alt , g:contrlp_accent , 15 , 55 ]
+let s:CP2 =  [ g:foreground_alt , g:contrlp_accent , 15 , 98 ]
+let s:CP3 =  [ g:background_alt , g:foreground_alt , 55 , 15 ]
 
 let g:airline#themes#vimterial_dark#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(s:CP1, s:CP2, s:CP3)
 
 " Tabline
 let g:airline#themes#vimterial_dark#palette.tabline = {
-      \ 'airline_tab':     [ '#cdd3de' , '#37474f' ,  15 , 55  , '' ],
-      \ 'airline_tabsel':  [ '#cdd3de' , '#607d8b' ,  15 , 98  , '' ],
-      \ 'airline_tabtype': [ '#cdd3de' , '#607d8b' ,  15 , 98  , '' ],
-      \ 'airline_tabfill': [ '#cdd3de' , '#182025' ,  15 , 233 , '' ],
-      \ 'airline_tabmod':  [ '#263238' , '#F07178' ,  15 , 33  , '' ]
+      \ 'airline_tab':     [ g:foreground_alt , g:background ,  15 , 55  , '' ],
+      \ 'airline_tabsel':  [ g:foreground_alt , g:normal_accent ,  15 , 98  , '' ],
+      \ 'airline_tabtype': [ g:foreground_alt , g:normal_accent ,  15 , 98  , '' ],
+      \ 'airline_tabfill': [ g:foreground_alt , g:background_alt ,  15 , 233 , '' ],
+      \ 'airline_tabmod':  [ g:background_alt , g:soft_red ,  15 , 33  , '' ]
       \ }
