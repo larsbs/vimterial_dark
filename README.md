@@ -4,6 +4,7 @@ A dark vim color scheme based on [Material Theme Darker](http://equinusocio.gith
 Improved for web development.
 
 > See also a variation of this color scheme based on atom [vimtom](https://github.com/larsbs/vimtom)
+
 > See also a lighter variation of this color scheme [vimterial](https://github.com/larsbs/vimterial)
 
 ## Target Syntax Highlighting Plugins
