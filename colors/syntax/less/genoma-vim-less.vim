@@ -10,7 +10,11 @@
 
 " LESS Highlighting "{{{
 " =================
-Hi lessAmpersand           g:limegreen                g:ignore
-Hi lessClassChar           g:green                    g:ignore
-Hi lessFunction            g:green                    g:ignore
+Hi lessFunction            g:orange                    g:ignore
+
+hi link lessClass              Include
+hi link lessCSSAttribute       lessClass
+hi link lessClassChar          lessClass
+hi link lessAmpersand          Operator
+hi link lessDefinition         cssNoise
 " }}}
