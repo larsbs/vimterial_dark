@@ -11,7 +11,7 @@ Improved for web development.
 
 This theme has been designed with the following syntax highlighting plugins in mind:
 
- * JavaScript: [pangloss/vim-javascript](http://equinusocio.github.io/material-theme)
+ * JavaScript: [pangloss/vim-javascript](https://github.com/pangloss/vim-javascript)
  * JSX: [mxw/vim-jsx](https://github.com/mxw/vim-jsx)
  * HTML5: [othree/html5.vim](https://github.com/othree/html5.vim)
  * XML: [larsbs/vim-xmll](https://github.com/larsbs/vim-xmll)
